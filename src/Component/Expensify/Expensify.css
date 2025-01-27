@@ -1,0 +1,101 @@
+.Expensifybody{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    /* height: 100vh; */
+    gap: 18px;
+    /* background-color: black; */
+}
+.Expensifyheader{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    height: 7vh;
+}
+.Expensifyheaderh2{
+    /* width: ; */
+    color: #009146;
+    font-family: inter, sans-serif;
+    font-size: 35px;
+     line-height: 16px;
+    font-style: normal; 
+}
+.Expensifyheaderbut{
+    width: 130px;
+    padding: 13px;
+    border-radius: 21px;
+    border: none;
+    background-color: #009146;
+    color: #D9EEE3;
+    font-family: inter, sans-serif;
+    font-size: 15px;
+}
+.Expensifycontainer1{
+    width: 90%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* background-color: blue; */
+}
+.Expensifycontainer1div1{
+    width: 65%;
+    height: 90%;
+    font-family: inter, sans-serif;
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #1D1D1D;
+    /* background-color: yellow; */
+}
+
+.Expensifycontainer1div1h2{
+    width: 60%;
+    line-height: 1.4;
+    /* letter-spacing: 2.5px; */
+    /* font-weight: 50px; */
+    /* background-color: green; */
+}
+
+.span{
+    color: #009146;
+}
+.Expensifycontainer1div2{
+    width: 30%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 30px;
+    /* background-color: blue; */
+}
+.Expensifycontainer1div2img{
+      width: 420px;
+      /* background-color: green; */
+}
+.Expensifycontainer2{
+    width: 90%;
+    /* background-color: blue; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    font-family: inter, sans-serif;
+    font-size: 14px;
+    height: 150px;
+}
+.Expensifycontainer2li{
+    width: 35%;
+    /* background-color: orange; */
+    line-height: 1.7;
+    color: #393939;
+
+}
+
+.Expensifycontainer3{
+    width: 100%;
+}
