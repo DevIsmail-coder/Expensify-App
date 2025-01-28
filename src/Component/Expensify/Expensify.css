@@ -12,6 +12,7 @@
     width: 90%;
     display: flex;
     align-items: center;
+    padding-top: 10px;
     justify-content: space-between;
     background-color: #FFFFFF;
     height: 7vh;
@@ -23,16 +24,53 @@
     font-size: 35px;
      line-height: 16px;
     font-style: normal; 
+    animation-name: animate__backInDown;
+    animation-duration: 4s;
 }
-.Expensifyheaderbut{
+
+@keyframes animate__backInDown{
+   0% {left: 0px; top: 0px;}
+}
+
+.Expensifyheadspanbut{
+    display: flex;
+    flex-direction: row;
+    /* background-color: blue; */
+    gap: 15px;
+}
+
+.Expensifyheaderbut2{
     width: 130px;
-    padding: 13px;
+    padding: 12px;
     border-radius: 21px;
     border: none;
     background-color: #009146;
     color: #D9EEE3;
     font-family: inter, sans-serif;
     font-size: 15px;
+}
+.Expensifyheaderbut1{
+    width: 130px;
+    padding: 12px;
+    border-radius: 21px;
+    border: none;
+    background-color: #FFFFFF;
+    color: #009146;
+    font-family: inter, sans-serif;
+    border: 1px solid #009146;;
+    font-size: 15px;
+}
+.Expensifyheaderbut2:hover{
+    cursor: pointer;
+    /* width: 100%; */
+    background-color: #D9EEE3;
+    color: #009146;
+}
+.Expensifyheaderbut1:hover{
+    cursor: pointer;
+    background-color: #009146;
+    color: #D9EEE3;
+    /* width: 100%; */
 }
 .Expensifycontainer1{
     width: 90%;
@@ -99,3 +137,5 @@
 .Expensifycontainer3{
     width: 100%;
 }
+
+/* .Loginpp */

@@ -1,0 +1,186 @@
+.Signupbody{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: #0a5b31bf;
+}
+
+.Signupmain{
+    width: 40%;
+    height: 95vh;
+    display: flex;
+    border-radius: 9px;
+    flex-direction: column;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: #FFFFFF;
+    font-family: inter, sans-serif;
+}
+
+.Signupmainheader{
+    width: 90%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    /* background-color: blue; */
+    padding-left: 22px;
+    font-size: 22px;
+    color: #009146;
+}
+
+.Signupcontainer{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    /* background-color: blue; */
+}
+.Signupcontainerh3{
+    font-size: 20px;
+    color: #009146;
+}
+
+.Signupcontainer2{
+    width: 100%;
+    /* background-color: orange; */
+    height: 500px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Signincontainerp2{
+    font-size: 15px;
+    color: #636363;
+}
+
+.SignupInputWrappper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+    position: relative;
+}
+.Signupcontainer2input{
+    width: 80%;
+    border-radius: 9px;
+    border: 1px solid #009146;
+    padding: 14px;
+    outline: none;
+}
+.SignupInputWrappperError{
+    width: 430px;
+    font-size: 12px;
+    color: red;
+}
+
+.Signupcontainer2tag{
+  position: absolute;
+  top: -10px;
+  left: 45px;
+  background-color: white;
+  padding-left: 5px;
+  font-size: 14px;
+  color: #209F5D;
+  padding-right: 5px;
+}
+
+.Signupcontainer2ptag{
+    width: 85%;
+    font-size: 12px;
+}
+
+.Signupcontainer2span{
+    color: #3F69D2;
+}
+.Signupcontainer2div{
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: blue; */
+    align-items: center;
+    height: 40px;
+}
+
+.Signupcontainer2divtag{
+    color: #3F69D2;
+    font-size: 17px;
+    cursor: pointer;
+}
+.signupcontainer2divbut{
+    width: 100px;
+    background-color: #009146;
+    border-radius: 20px;
+    color: #D9EEE3;
+    border: none;
+    padding: 12px;
+}
+
+.signupgender{
+    width: 85%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    /* background-color: green; */
+   
+}
+.signupgenderhead{
+    font-size: 15px;
+    color: #009146;
+}
+
+.signupgendercontainer{
+    display: flex;
+    gap: 30px;
+}
+.signupgendercontainerdiv{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blue; */
+    gap: 5px;
+    font-size: 13px;
+    color: #535353;
+}
+
+.signupgendercontainerdivbut{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid #009146;
+}
+
+.signupcontainer3{
+    width: 100%;
+    display: flex;
+    height: 20px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    /* background-color: yellow; */
+    font-size: 11px;
+}
+
+.signupcontainer3span{
+    font-size: 12px;
+    color: #3F69D2;
+}

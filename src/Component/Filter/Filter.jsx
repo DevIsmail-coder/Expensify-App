@@ -48,6 +48,7 @@ const Filter = () => {
                 <p>Ahmed Taofeek</p>
                 <p>ismail Muhammed</p>
                 <p>Christian Ichiogu</p>
+                <p>Joshua Saleh</p>
             </span>
         </span>
       </article>
