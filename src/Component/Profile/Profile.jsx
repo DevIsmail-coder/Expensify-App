@@ -16,7 +16,7 @@ const navigate = useNavigate()
           <article className='Profilecontainerheader'>
             <h3 className='Profilecontainerheaderptag'>Expense</h3>
             <main className='Profilecontainermain'>
-              <button className='Profilecontainermainbut' onClick={() => navigate("/2")}>Log out</button>
+              <button className='Profilecontainermainbut' onClick={() => navigate("/")}>Log out</button>
             </main>
           </article>
           <article className='Profilecontainerdiv2'>
