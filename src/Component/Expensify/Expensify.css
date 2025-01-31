@@ -27,14 +27,13 @@
 
 .Expensifyheadspanbut{
     display: flex;
-    flex-direction: row;
-    /* background-color: blue; */
     gap: 15px;
 }
 
 .Expensifyheaderbut2{
     width: 130px;
-    padding: 12px;
+    height: 40px;
+    /* padding: 12px; */
     border-radius: 21px;
     border: none;
     background-color: #009146;
@@ -44,7 +43,7 @@
 }
 .Expensifyheaderbut1{
     width: 130px;
-    padding: 12px;
+    height: 40px;
     border-radius: 21px;
     background-color: #FFFFFF;
     color: #009146;
@@ -71,6 +70,7 @@
     flex-direction: row;
     align-items: center;
     /* background-color: blue; */
+    margin-top: 20px;
 }
 .Expensifycontainer1div1{
     width: 65%;
@@ -101,12 +101,12 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-end;
-    font-size: 30px;
+    justify-content: center;
     /* background-color: blue; */
+    margin-top: 20px;
 }
 .Expensifycontainer1div2img{
-      width: 420px;
+      width: 100%;
       /* background-color: green; */
 }
 .Expensifycontainer2{
