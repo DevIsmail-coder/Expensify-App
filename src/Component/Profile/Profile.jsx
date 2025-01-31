@@ -16,7 +16,7 @@ const navigate = useNavigate()
           <article className='Profilecontainerheader'>
             <h3 className='Profilecontainerheaderptag'>Expense</h3>
             <main className='Profilecontainermain'>
-              <button className='Profilecontainermainbut' onClick={() => navigate("/")}>Log out</button>
+              <button className='Profilecontainermainbut' onClick={() => navigate("/2")}>Log out</button>
             </main>
           </article>
           <article className='Profilecontainerdiv2'>
@@ -28,7 +28,7 @@ const navigate = useNavigate()
             <span className='Profilespanbut'>
                     <button className='Profilebutton'></button>
                     </span>
-                    <img src = "public/Premium Vector _ Illustration of a pink piggy bank with a golden coin_ 1.png" className='Profileimage'/>
+                    <img src = "./Premium.png" className='Profileimage'/>
                     <h3 className='profilemaintext'>Control expenses for food, Travelling and also entertainment</h3>
             </div>
           </article>

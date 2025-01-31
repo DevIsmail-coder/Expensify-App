@@ -24,7 +24,7 @@ const Expensify = () => {
           </h2>
         </article>
         <article className='Expensifycontainer1div2'>
-          <img src='./logo-removebg-preview.png' className='Expensifycontainer1div2img' />
+          <img src='./logo.png' className='Expensifycontainer1div2img' />
         </article>
       </div>
       <ul className='Expensifycontainer2'>
