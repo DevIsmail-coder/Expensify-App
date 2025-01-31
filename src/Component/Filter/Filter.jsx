@@ -45,8 +45,8 @@ const Filter = () => {
         <span className='Filtercontainer1div'>
             <h3 className='Filtercontainer1h3'>Teams</h3>
             <span className='Filtercontainer1list'>
-                <p>Ahmed Taofeek</p>
-                <p>ismail Muhammed</p>
+                <p>Taofik Ahmed</p>
+                <p>Ismail Muhammed</p>
                 <p>Christian Ichiogu</p>
                 <p>Joshua Saleh</p>
             </span>
