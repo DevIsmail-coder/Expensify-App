@@ -1,0 +1,132 @@
+.Profilebody{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #313131;
+    font-family: inter, sans-serif;
+}
+
+.Profilemain{
+    width: 90%;
+    height: 90%;
+    /* background-color: green; */
+}
+
+.Profilecontainer{
+    width: 100%;
+    height: 555px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    /* background-color: yellow; */
+    border-top-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+
+.Profilecontainerheader{
+    width: 85%;
+    height: 95px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* background-color: blue; */
+}
+
+.Profilecontainerheaderptag{
+    width: 57.5%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    font-size: 25px;
+    font-family: inter, sans-serif;
+    align-items: center;
+}
+.Profilecontainermain{
+    width: 43%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    /* background-color: orange; */
+    height: 70%;
+
+}
+
+.Profilecontainermainbut{
+    width: 125px;
+    height: 38px;
+    /* display: fle; */
+}
+
+.Profilecontainerdiv2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 260px;
+    gap: 25px;
+    /* background-color: red; */
+}
+.Profilecontainerdiv2text{
+    width: 45%;
+    font-family: inter, sans-serif;
+    letter-spacing: 1px;
+    color: #1D1D1D;
+    text-align: center;
+
+}
+
+.Profilecontainerdiv2card{
+    background-color: #009146;
+    width: 18%;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    border-radius: 9px;
+    height: 80%;
+    border: 3px solid #10ad5c;
+    gap: 10px;
+    transition: transform 0.3s ease;
+    flex-direction: column;
+}
+.Profilecontainerdiv2card:hover{
+    background-color: #0a6e3a;
+    transform: scale(1.05);
+}
+
+.Profilespanbut{
+    width: 100%;
+    height: 30px;
+    /* background-color: blue; */
+}
+.Profilebutton{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #009146;
+    border: 4px solid #D9EEE3;
+}
+
+.profilemaintext{
+    width: 80%;
+    font-size: 15px;
+    text-align: center;
+    color: #D9EEE3;
+    /* background-color: blue; */
+}
+
+.Profileimage{
+    width: 60px;
+    height: 70px;
+}

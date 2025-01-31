@@ -1,13 +1,13 @@
-import React, { useContext } from 'react'
+
 import './Login.css'
 import { useForm } from 'react-hook-form'
 import { yupResolver } from '@hookform/resolvers/yup' 
 import { LoginSchema } from '../../schema/LoginSchema'
-import { Landcontext } from '../Contexts'
+import { useNavigate } from 'react-router-dom'
 
 
 const Login = () => {
-    const {setShowPage} = useContext(Landcontext)
+    const navigate = useNavigate()
     const {register, handleSubmit, formState: {errors},} = useForm({
         resolver: yupResolver(LoginSchema),
     })
@@ -30,10 +30,10 @@ const Login = () => {
                             <input type='password' className='Loginmaincontainer2input' {...register("password")}/>
                             <p className='LoginInputWrappperError'>{errors?.password?.message}</p>
                         </span>
-                        <p className='Loginmaincontainer2ptag'>Don’t have an account? <span className='Loginmaincontainer2span'>Sign up</span></p>
+                        <p className='Loginmaincontainer2ptag'>Don’t have an account? <span className='Loginmaincontainer2span' onClick={() => navigate("/signup")}>Sign up</span></p>
                         <main className='Loginmaincontainer2div'>
-                            <p className='Loginmaincontainer2divtag' onClick={() => setShowPage("")}>Cancel</p>
-                            <button className='Loginmaincontainer2divbut' type='submit'>NEXT</button>
+                            <p className='Loginmaincontainer2divtag' onClick={() => navigate("/")}>Cancel</p>
+                            <button className='Loginmaincontainer2divbut' type='submit' >NEXT</button>
                         </main>
                     </form>
                 </article>

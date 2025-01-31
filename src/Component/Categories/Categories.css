@@ -15,10 +15,10 @@
     height: 180px;
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 70px;
     flex-direction: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     /* background-color: yellow; */
 }
 .Categoriesmaindiv{
@@ -30,12 +30,13 @@
     border-radius: 9px;
     height: 80%;
     border: 3px solid #10ad5c;
-    /* justify-content: center; */
     gap: 10px;
+    transition: transform 0.3s ease;
     flex-direction: column;
 }
 .Categoriesmaindiv:hover{
     background-color: #0a6e3a;
+    transform: scale(1.05);
 }
 .Categoriesimage{
     width: 55px;
@@ -66,4 +67,9 @@
     text-align: center;
     color: #D9EEE3;
     /* background-color: blue; */
+}
+
+.Categoriesh3{
+    color: #009146;
+    font-size: 25px;
 }

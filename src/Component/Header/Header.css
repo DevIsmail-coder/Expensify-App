@@ -1,0 +1,93 @@
+.Headerbody{
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    background-color: #313131;
+}
+.Headercontainer1{
+    width: 75%;
+    height: 100%;
+    background-color: #FFFFFF;
+    border-radius: 9px 9px 0px 0px;
+    /* border-radius: 9px; */
+    /* border-bottom-right-radius: 0px; */
+}
+
+.Headercontainer2{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    /* border-bottom-left-radius: 9px; */
+    /* background-color: yellow; */
+}
+
+.Headercontainer2div{
+    width: 95%;
+    height: 90%;
+    border-radius: 9px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+    background-color: #FFFFFF;
+}
+.Headercontainer2span1{
+    width: 200px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    gap: 2px;
+    /* background-color: blue; */
+}
+.Headercontainer2span2{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-size: 60px; */
+    /* background-color: green; */
+}
+
+.Headercontainer2span1div{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    font-size: 15px;
+    color: #313131;
+    font-family: inter, sans-serif;
+    /* background-color: yellow; */
+}
+.Headercontainer2span1div2{
+    width: 70px;
+    /* background-color: green; */
+    font-size: 16px;
+    display: flex;
+    justify-content: end;
+    font-family: inter, sans-serif;
+}
+.Headerh3{
+    width: 90%;
+    height: 70px;
+    display: flex;
+    font-family: inter, sans-serif;
+    align-items: center;
+    /* background-color: blue; */
+    padding-left: 22px;
+    font-size: 22px;
+    color: #009146;
+}
+
+.Headericons{
+    width: 100%;
+    height: 100vh;
+}
+
+
+

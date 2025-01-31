@@ -3,14 +3,16 @@ import './Categories.css'
 import Card from './Categoriescard'
 
 const Categories = () => {
+
   return (
     <div className='Categoriesbody'>
-      <h3 className='Categoriesh3'>Categories</h3>
+      {/* <h3 className='Categoriesh3'>Categories</h3> */}
      
       <article className='Categoriesmain'>
         {
             Card.map((i) => (
-                <div key={i.id} className='Categoriesmaindiv'>
+
+                <div key={i.id} className='Categoriesmaindiv' >
                     <span className='spanbut'>
                     <button className='Categoriesbutton'></button>
                     </span>

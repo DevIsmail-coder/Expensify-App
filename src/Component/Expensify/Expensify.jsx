@@ -1,32 +1,20 @@
-import React, { useState } from 'react'
+
 import './Expensify.css'
 import Categories from '../Categories/Categories'
 import Filter from '../Filter/Filter'
-import Login from '../Login/Login'
-import Signup from '../Signup/Signup'
-import Food from '../Food/Food'
-import Traval from '../Traval/Traval'
-import Entertainment from '../Entertainment/Entertainment'
-import { Landcontext } from '../Contexts'
+import { useNavigate } from 'react-router-dom'
 
 const Expensify = () => {
-  const [showPage, setShowPage] = useState("entertainment")
+  const navigate = useNavigate()
   
   return (
-    <div className='Expensifybody'>
-      <Landcontext.Provider value={{setShowPage}}> 
-      {showPage === "login" && <Login />}
-      {showPage === "signup" &&  <Signup />}
-      {showPage === "food" &&  <Food/>}
-      {showPage === "traval" && <Traval />}
-      {showPage === "entertainment" && <Entertainment />}
-      </Landcontext.Provider>
 
+    <div className='Expensifybody'>
       <article className='Expensifyheader'>
         <h2 className='Expensifyheaderh2'>Expensify</h2>
       <article className='Expensifyheadspanbut'>
-      <button className='Expensifyheaderbut1' onClick={() => setShowPage("login")}>Login</button>
-      <button className='Expensifyheaderbut2' onClick={() => setShowPage("signup")}>Sign in</button>
+      <button className='Expensifyheaderbut1' onClick={() => alert("Sorry, this website only allows signup for verification. Please click the signup button below and create a new account.")}>Login</button>
+      <button className='Expensifyheaderbut2' onClick={() => navigate("/signup")}>Sign up</button>
       </article>
       </article>
       <div className='Expensifycontainer1'>

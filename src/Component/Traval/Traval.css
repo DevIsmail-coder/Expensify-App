@@ -15,11 +15,61 @@
 
 .Travalbodymain{
     width: 38%;
-    height: 70vh;
+    height: 80%;
     display: flex;
     border-radius: 9px;
     flex-direction: column;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     background-color: #FFFFFF;
     font-family: inter, sans-serif;
+}
+
+.TravelH2{
+    width: 100%;
+    height: 15%;
+    color: #009146;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.TravelP{
+    width: 100%;
+    height: 3%;
+    font-size: 13px;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.TravelH4{
+    margin-left: 27px;
+    margin-top: 20px;
+}
+
+.TravelInput{
+    width: 85%;
+    height: 13%;
+    margin-left: 27px;
+    outline: none;
+    margin-top: 10px;
+}
+
+.TravelInputDate{
+    width: 85%;
+    height: 8%;
+    margin-left: 27px;
+    margin-top: 10px;
+}
+
+.TravelInputTotal{
+    width: 50%;
+    height: 8%;
+    margin-left: 130px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
